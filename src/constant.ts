@@ -1,0 +1,3 @@
+export const PHOTO_RESPOSITORY = 'PHOTO_REPOSITORY';
+
+export const DATA_SOURCE = 'DATA_SOURCE';

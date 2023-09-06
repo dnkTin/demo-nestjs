@@ -12,11 +12,7 @@ export class TodoService {
 
   create(todoTitle: string, todoDescription: string): any {
     const id = generate();
-    const newTodo = new Todo({
-      id,
-      todoTitle,
-      todoDescription,
-    });
+    const newTodo = new Todo(id, todoTitle, todoDescription);
     this.todosDb = this.todosDb.concat(newTodo);
   }
 
